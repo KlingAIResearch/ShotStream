@@ -1,5 +1,5 @@
 <p align="center" >
-    <img src="figs/shotstream_logo.png"  width="70%" >
+    <img src="figs/shotstream_logo.png"  width="60%" >
 </p>
 
 # <div align="center">Streaming Multi-Shot Video Generation for Interactive Storytelling<div align="center">
