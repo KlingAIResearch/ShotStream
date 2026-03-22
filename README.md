@@ -169,10 +169,12 @@ bash tools/train/4_dmd_long.sh 0
 bash tools/train/4_dmd_long.sh 1
 ...
 ```
+## 🌟 Citation
+Please leave us a star 🌟 and cite our paper if you find our work helpful.
 
+```
 
-
-
+```
 
 ## 🤗 Acknowledgement
 - [CausalVid](https://github.com/tianweiy/CausVid): the distillation procedure we built upon. Thanks for their wonderful work.
