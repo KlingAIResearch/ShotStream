@@ -80,6 +80,7 @@ or directly:
 bash tools/setup/download_ckpt.sh
 ```
 **3. Autoregressive 4-step Long Multi-Shot Video Generation**
+**Note:** Due to company policy restrictions, the prompts in these demo cases exhibit a distribution shift compared to those used during our original training and inference phases.
 ```bash
 bash tools/inference/causal_fewsteps.sh
 ```
@@ -136,5 +137,35 @@ bash tools/train/2_ode_init.sh 0
 bash tools/train/2_ode_init.sh 0
 # Run this command on node 1 (worker node)
 bash tools/train/2_ode_init.sh 1
+...
+```
+**Step 2.2 Two-stage Causal Distillation**:
+**Step 2.2.1 Intra-shot Self-forcing Distillation**:
+**Single node:** 
+```bash
+bash tools/train/3_dmd.sh 0
+```
+
+**Multi-nodes:** 
+```bash
+# Run this command on node 0 (main node)
+bash tools/train/3_dmd.sh 0
+# Run this command on node 1 (worker node)
+bash tools/train/3_dmd.sh 1
+...
+```
+
+**Step 2.2.2 Inter-shot Self-forcing Distillation**:
+**Single node:** 
+```bash
+bash tools/train/4_dmd_long.sh 0
+```
+
+**Multi-nodes:** 
+```bash
+# Run this command on node 0 (main node)
+bash tools/train/4_dmd_long.sh 0
+# Run this command on node 1 (worker node)
+bash tools/train/4_dmd_long.sh 1
 ...
 ```
