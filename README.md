@@ -94,12 +94,12 @@ bash tools/inference/causal_fewsteps.sh
 > 1. You need to update `MASTER_ADDR` in `tools/train/1_basemodel.sh` with the main node's IP address. For multi-node training, the `NNODES` variable also needs to be modified accordingly.
 > 2. The multi-shot video example provided is sourced from a public dataset for demonstration purposes. Its captions differ from those used in our actual training set.
 
-**Single node:**
+Single node:
 ```bash
 bash tools/train/1_basemodel.sh 0
 ```
 
-**Multi-nodes:**
+Multi-nodes:
 ```bash
 # Run this command on node 0 (main node)
 bash tools/train/1_basemodel.sh 0
@@ -114,7 +114,7 @@ bash tools/train/1_basemodel.sh 1
 
 Following [CausVid](https://arxiv.org/pdf/2412.07772v1), we initialize the causal student with the bidirectional teacher's weights. Training all parameters on 5K teacher ODE solution pairs aligns their trajectories, bridging the architectural gap and stabilizing subsequent distillation.
 
-**Step 2.1.1: Get ODE Pairs from Teacher**
+Step 2.1.1: Get ODE Pairs from Teacher
 ```bash
 python Teacher_Ode_Sample.py \
   --ckpt_dir ckpts/bidirectional_teacher.pt \
@@ -122,21 +122,21 @@ python Teacher_Ode_Sample.py \
   --data_csv_path demo/data/sample.csv
 ```
 
-**Step 2.1.2: Get ODE Pairs CSV**
+Step 2.1.2: Get ODE Pairs CSV
 ```bash
 python get_ode_csv.py \
     -i demo/data/ode_sample \
     -o demo/data/ode_sample.csv
 ```
 
-**Step 2.1.3: Causal Initialization**
+Step 2.1.3: Causal Initialization
 
-**Single node:**
+Single node:
 ```bash
 bash tools/train/2_ode_init.sh 0
 ```
 
-**Multi-nodes:**
+Multi-nodes:
 ```bash
 # Run this command on node 0 (main node)
 bash tools/train/2_ode_init.sh 0
@@ -147,14 +147,14 @@ bash tools/train/2_ode_init.sh 1
 
 ##### Step 2.2: Two-stage Causal Distillation
 
-**Step 2.2.1: Intra-shot Self-forcing Distillation**
+Step 2.2.1: Intra-shot Self-forcing Distillation
 
-**Single node:**
+Single node:
 ```bash
 bash tools/train/3_dmd.sh 0
 ```
 
-**Multi-nodes:**
+Multi-nodes:
 ```bash
 # Run this command on node 0 (main node)
 bash tools/train/3_dmd.sh 0
@@ -163,14 +163,14 @@ bash tools/train/3_dmd.sh 1
 ...
 ```
 
-**Step 2.2.2: Inter-shot Self-forcing Distillation**
+Step 2.2.2: Inter-shot Self-forcing Distillation
 
-**Single node:**
+Single node:
 ```bash
 bash tools/train/4_dmd_long.sh 0
 ```
 
-**Multi-nodes:**
+Multi-nodes:
 ```bash
 # Run this command on node 0 (main node)
 bash tools/train/4_dmd_long.sh 0
