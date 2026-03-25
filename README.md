@@ -55,11 +55,12 @@
 ## 📷 Introduction
 **TL;DR:** We propose ShotStream, a novel **causal multi-shot architecture** that enables **interactive storytelling** and **efficient on-the-fly frame generation**, achieving **16 FPS** on a single NVIDIA GPU.
 
+Please watch more video results in our [Project Page](https://luo0207.github.io/ShotStream/).
+
 <div align="center">
   <video src="https://github.com/user-attachments/assets/1ebb6f3d-b6c1-42ae-8fc1-835f49cae682" controls muted width="50%"></video>
 </div>
 
-Please watch more video results in our [Project Page](https://luo0207.github.io/ShotStream/).
 
 ## ⚙️ Code: ShotStream + Wan2.1-T2V-1.3B
 
