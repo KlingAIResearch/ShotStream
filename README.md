@@ -36,9 +36,7 @@ https://github.com/KlingAIResearch/ShotStream/blob/main/figs/demo.mp4
 **TL;DR:** We propose ShotStream, a novel **causal multi-shot architecture** that enables **interactive storytelling** and **efficient on-the-fly frame generation**, achieving **16 FPS** on a single NVIDIA GPU.
 
 <div align="center">
-  <a href="https://luo0207.github.io/ShotStream/">
-    <img src="figs/demo.gif" alt="Demo" width="80%">
-  </a>
+  <video src="https://github.com/user-attachments/assets/b7983a90-21cc-4571-96ac-2bbb1af20a71" controls width="80%"></video>
 </div>
 
 Please watch more video results in our [Project Page](https://luo0207.github.io/ShotStream/).
