@@ -24,8 +24,6 @@
   </p>
 </div>
 
-https://github.com/KlingAIResearch/ShotStream/blob/main/figs/demo.mp4
-
 **Note:** This open-source repository is a reference implementation. Please note that the original model utilizes internal data, and the prompts in these demo cases exhibit a distribution gap compared to our original training and inference phases.
 
 ## 🔥 Updates
