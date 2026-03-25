@@ -24,6 +24,28 @@
   </p>
 </div>
 
+## 📋 Table of Contents
+- [� Table of Contents](#-table-of-contents)
+- [🔥 Updates](#-updates)
+- [📷 Introduction](#-introduction)
+- [⚙️ Code: ShotStream + Wan2.1-T2V-1.3B](#️-code-shotstream--wan21-t2v-13b)
+  - [Inference](#inference)
+    - [1. Environment Setup](#1-environment-setup)
+    - [2. Download Checkpoints](#2-download-checkpoints)
+    - [3. Run Inference](#3-run-inference)
+  - [Training](#training)
+    - [Step 1: Bidirectional Next-Shot Teacher Model Training](#step-1-bidirectional-next-shot-teacher-model-training)
+    - [Step 2: Causal Student Model Distillation](#step-2-causal-student-model-distillation)
+      - [Step 2.1: Causal Adaptation Initialization](#step-21-causal-adaptation-initialization)
+        - [Step 2.1.1: Get ODE Pairs from Teacher](#step-211-get-ode-pairs-from-teacher)
+        - [Step 2.1.2: Get ODE Pairs CSV](#step-212-get-ode-pairs-csv)
+        - [Step 2.1.3: Causal Initialization](#step-213-causal-initialization)
+      - [Step 2.2: Two-stage Causal Distillation](#step-22-two-stage-causal-distillation)
+        - [Step 2.2.1: Intra-shot Self-forcing Distillation](#step-221-intra-shot-self-forcing-distillation)
+        - [Step 2.2.2: Inter-shot Self-forcing Distillation](#step-222-inter-shot-self-forcing-distillation)
+- [🌟 Citation](#-citation)
+- [🤗 Acknowledgement](#-acknowledgement)
+
 **Note:** This open-source repository is a reference implementation. Please note that the original model utilizes internal data, and the prompts in these demo cases exhibit a distribution gap compared to our original training and inference phases.
 
 ## 🔥 Updates
