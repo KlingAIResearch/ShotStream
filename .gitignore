@@ -2,3 +2,4 @@
 .DS_Store
 
 upload_to_hf.py
+strip_ckpts.py
