@@ -27,7 +27,7 @@
 <p align="center">
   <a href='https://luo0207.github.io/ShotStream/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
   &nbsp;
-  <a href="#"><img src="https://img.shields.io/static/v1?label=Arxiv&message=ShotStream&color=red&logo=arxiv"></a>
+  <a href="https://arxiv.org/abs/2603.25746"><img src="https://img.shields.io/static/v1?label=Arxiv&message=ShotStream&color=red&logo=arxiv"></a>
   &nbsp;
   <a href='https://huggingface.co/KlingTeam/ShotStream/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange'></a>
 </p>
