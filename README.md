@@ -213,7 +213,12 @@ bash tools/train/4_dmd_long.sh 1
 Please leave us a star 🌟 and cite our paper if you find our work helpful.
 
 ```
-
+@article{luo2026shotstream,
+  title={ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling},
+  author={Luo, Yawen and Shi, Xiaoyu and Zhuang, Junhao and Chen, Yutian and Liu, Quande and Wang, Xintao and Wan, Pengfei and Xue, Tianfan},
+  journal={arXiv preprint arXiv:2603.25746},
+  year={2026}
+}
 ```
 
 ## 🤗 Acknowledgement
