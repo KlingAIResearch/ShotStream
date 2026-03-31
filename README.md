@@ -31,7 +31,7 @@
   &nbsp;
   <a href='https://huggingface.co/KlingTeam/ShotStream/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange'></a>
   &nbsp;
-  <a href='#-citation'><img src='https://img.shields.io/badge/BibTeX-Cite-blue?logo=google-scholar'></a>
+  <a href='#-citation'><img src='https://img.shields.io/badge/BibTeX-Cite-blue'></a>
 </p>
 
 ## 📋 Table of Contents
