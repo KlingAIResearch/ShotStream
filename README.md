@@ -59,6 +59,7 @@
 **Note:** This open-source repository is a reference implementation. Please note that the original model utilizes internal data, and the prompts in these demo cases exhibit a distribution gap compared to our original training and inference phases.
 
 ## 🔥 Updates
+- __[2026.06.18]__: [ShotStream](https://luo0207.github.io/ShotStream/) has been accepted by ECCV 2026.
 - __[2026.03.27]__: Release the [Training and Inference Code](https://github.com/KlingAIResearch/ShotStream) and the [Checkpoints](https://huggingface.co/KlingTeam/ShotStream).
 - __[2026.03.27]__: Release the [Project Page](https://luo0207.github.io/ShotStream/) and the [Arxiv]() version.
 
