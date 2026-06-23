@@ -2,7 +2,9 @@
     <img src="figs/shotstream_logo.png"  width="55%" >
 </p>
 
-<h1 align="center">Streaming Multi-Shot Video Generation for Interactive Storytelling</h1>
+<!-- <h1 align="center"></h1> -->
+
+# <div align="center" >Streaming Multi-Shot Video Generation for Interactive Storytelling<div align="center">
 
 ##  <div align="center"> ECCV 2026 </div>
 
