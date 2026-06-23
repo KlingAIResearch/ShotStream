@@ -5,6 +5,7 @@
 <h1 align="center">Streaming Multi-Shot Video Generation for Interactive Storytelling</h1>
 
 ##  <div align="center"> ECCV 2026 </div>
+
 <div align="center">
   <p>
     <a href="https://luo0207.github.io/yawenluo/">Yawen Luo</a><sup>1</sup>
